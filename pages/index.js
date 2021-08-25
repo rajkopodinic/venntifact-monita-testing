@@ -12,7 +12,7 @@ export const getStaticProps = async () => {
 
 const Home = ({ users }) => {
   return (
-    <div className="flex flex-col min-h-screen p-20 bg-gray-900 text-white">
+    <div className="flex flex-col min-h-screen p-10 sm:p-20 bg-gray-900 text-white">
       <Head>
         <title>Monita</title>
       </Head>
