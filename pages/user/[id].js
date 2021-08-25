@@ -32,7 +32,7 @@ const Details = ({ user }) => {
             <Link href='/'>
                 <a><p className="underline pb-8">Back Home</p></a>
             </Link>
-            <p className="text-xl pb-8">User Details</p>
+            <p className="text-xl pb-8">User Detail</p>
             <p>Name: { user.name }</p>
             <p>Username: { user.username }</p>
             <p>Email: { user.email }</p>
